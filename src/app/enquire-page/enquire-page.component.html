@@ -1,0 +1,48 @@
+<div class="container-fluid enquire-page">
+  <!-- Navbar -->
+  <app-navbar></app-navbar>
+
+
+  <div class="header">
+      <h4>ENQUIRE</h4>
+  </div>
+  <div class="container-fluid" id="enquire-form">
+      <form>
+          <div class="container">
+              <div class="input-group">
+                  <input type="text" id="name" required>
+                  <label for="name"><i class="fa fa-user" aria-hidden="true"></i>Your Name</label>
+              </div>
+              <div class="row">
+                  <div class="input-group">
+                      <input type="text" id="number" required>
+                      <label for="number"><i class="fa fa-phone-square" aria-hidden="true"></i>Phone No</label>
+                  </div>
+                  <div class="input-group">
+                      <input type="email" id="email" required>
+                      <label for="email"><i class="fa fa-envelope-o" aria-hidden="true"></i>Email Address</label>
+                  </div>
+              </div>
+              <div id="select">
+                  <!-- <input type="text" id="nature" required> -->
+                  <select name="cars" id="nature">
+                      <option value="nature">Nature of the Appointment</option>
+                      <option value="Remote Meet">Remote Meet</option>
+                      <option value="Physical Meet">Physical Meet</option>
+                    </select>
+                  <!-- <label for="nature"><i class="fa fa-envira" aria-hidden="true"></i>Nature of the
+                      Appointment</label> -->
+              </div>
+              <div class="input-group">
+                  <textarea id="message" rows="8" required></textarea>
+                  <label for="message"><i class="fa fa-comments-o" aria-hidden="true"></i> Your Message</label>
+              </div>
+              <button type="submit">SUBMIT</button>
+          </div>
+      </form>
+  </div>
+</div>
+
+<!-- footer -->
+<app-footer></app-footer>
+

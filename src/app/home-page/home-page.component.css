@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.home-page{
+  height: 900px;
+  width: 100%;
+  /* background-image: linear-gradient(rgba(12, 10, 36, 0.5),rgba(43, 8, 66, 0.5)),url(../../assets/img/backgrounds/services.jpg); */
+  background-image: linear-gradient(rgba(106, 95, 228, 0.5),rgba(15, 7, 20, 0.5)),url(../../assets/img/backgrounds/services.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+h1{
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff
+}
+
+#inner-background{
+  display: flex;
+  justify-content: center;
+}
+
+.home-content{
+  margin-top: 20px;
+  height: 700px;
+  /* background-image: linear-gradient(rgba(179, 183, 197, 0.1),rgba(200, 172, 207, 0.5)),url("http://nebula.wsimg.com/bd28d0e9a8411a4ed9af5b4c315ac4f9?AccessKeyId=F2963D41DD108C1F4794&disposition=0&alloworigin=1"); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.content{
+  width: 100%;
+  /* top: 47%; */
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+
+  line-height: 100px;
+  font-weight: bold;
+  height: 100px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-size: 50px;
+
+}
+
+.title h1{
+  font-size: 50px;
+
+}
+
+.content p{
+  margin: 20px auto;
+  font-weight: 500;
+  line-height: 2;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;}
+
+
+
+
+.slider{
+  color: #ffc107;
+  margin-left: 12px;
+  box-sizing: border-box;
+  animation: slider 6s linear infinite;
+}
+
+
+@keyframes slider{
+  0%{
+      margin-top: -200px;
+  }
+  30%{
+      margin-top: -200px;
+  }
+  35%{
+      margin-top: 0px;
+  }
+  65%{
+      margin-top: 0px;
+  }
+  75%{
+      margin-top: -200px;
+  }
+  100%{
+      margin-top: 200px;
+  }
+}
+
+
+

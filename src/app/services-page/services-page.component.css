@@ -1,0 +1,174 @@
+.services-page{
+  height: 949px;
+  width: 100%;
+  background-image: url(../../assets/img/backgrounds/services.jpg);
+  background-size: cover;
+}
+
+.services-page .header h4{
+text-align: center;
+font-size: 13px;
+font-weight: bold;
+margin-top: 20px;
+color: #fff;
+}
+
+.event-container{
+height: 70vh;
+background-color: rgb(201,	202,	244, 0.5);
+margin-top: 50px;
+margin-left: 100px;
+margin-right: 100px;
+border-radius: 8px !important;
+
+
+}
+
+#event-type-list .carousel-item{
+height: 38rem;
+/* background-color: seagreen; */
+}
+
+
+
+#event-type-list .carousel-caption{
+position: absolute;
+display: grid;
+top: 90px;
+bottom: auto;
+grid-template-columns: auto auto auto auto;
+grid-gap: 30px;
+align-items: center;
+/* margin-left:10px; */
+/* margin-right: 15%;  */
+margin-bottom: 40px;
+z-index: 10;
+
+
+}
+
+#event-type-list .carousel-caption .card-container{
+display: flex;
+flex-direction: column;
+background-color: rgba(156, 167, 233, 0.5);
+margin-bottom: 40px;
+}
+
+#event-type-list .carousel-caption .card-container .card-caption{
+margin-top: 10px;
+font-size: 12px;
+color: rgb(3, 18, 68);
+font-weight: bold;
+}
+
+
+
+#event-type-list .carousel-caption .card{
+height: 45vh;
+width: 20vw;
+background-color: grey;
+border-radius: 0% !important;
+border: none;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 8px !important;
+margin: 8px;
+
+}
+
+.event-page-buttons{
+display: flex;
+justify-content: center;
+}
+
+.event-page-buttons .button-container{
+width: 60%;
+display: flex;
+justify-content:space-between;
+}
+
+
+.event-page-buttons .button-container .btn{
+height: 40px;
+width: 150px;
+font-size: 12px;
+font-weight: bold;
+border-radius: 0%;
+background-color: #2109F6;
+margin-left: 35px;
+}
+
+
+#event-type-list .carousel-caption #event1{
+background-image: url(../../assets/img/events/private-event.jpg);
+background-size: cover;
+background-position: center;
+
+}
+
+#event-type-list .carousel-caption #event2{
+background-image: url(../../assets/img/events/wedding.jpg);
+background-size: cover;
+background-position: center;
+
+}
+
+.btn:hover{
+  background-color: #8845ba !important;
+  border: 2px solid white;
+  }
+
+
+#event-type-list .carousel-caption #event3{
+background-image: url("https://www.darwinsongproject.com/wp-content/uploads/2018/01/Event-Management.jpg");
+background-size: cover;
+background-position: center;
+
+
+}
+
+#event-type-list .carousel-caption #event4{
+background-image: url("https://5.imimg.com/data5/EH/FU/GLADMIN-15242729/birthday-party-events-500x500.jpg");
+background-size: cover;
+background-position: center;
+
+
+}
+#event-type-list .carousel-caption #event5{
+background-image: url(../../assets/img/events/babyshower.jpg);
+background-size: cover;
+background-position: center;
+
+
+}
+#event-type-list .carousel-caption #event6{
+background-image: url("https://religionnews.com/wp-content/uploads/2020/01/webRNS-Reinhard-Bonnke7-010320-807x623.jpg");
+background-size: cover;
+background-position: center;
+
+
+}
+#event-type-list .carousel-caption #event7{
+background-image: url("https://project82kenya.com/wp-content/uploads/Untitled1.png");
+background-size: cover;
+background-position: center;
+
+
+}
+#event-type-list .carousel-caption #event8{
+background-image: url("https://www.shadesystems.co.ke/wp-content/uploads/2017/04/party-tent-2.jpg ");
+background-size: cover;
+background-position: center;
+
+
+
+}
+#event-type-list .carousel-caption #event9{
+background-image: url("https://www.castellodicafaggio.com/en/wp-content/uploads/sites/2/2016/01/Angelo-buffet-dolci.jpg");
+background-size: cover;
+background-position: center;
+
+
+}
+
