@@ -60,7 +60,6 @@ h1{
 
 .title h1{
   font-size: 50px;
-
 }
 
 .content p{
@@ -68,8 +67,9 @@ h1{
   font-weight: 500;
   line-height: 2;
   letter-spacing: 1px;
-  font-size: 20px;
-  font-family: 'Pacifico', cursive;}
+  font-size: 35px;
+  font-family: 'Montez', cursive;
+}
 
 
 
@@ -79,6 +79,7 @@ h1{
   margin-left: 12px;
   box-sizing: border-box;
   animation: slider 6s linear infinite;
+
 }
 
 
